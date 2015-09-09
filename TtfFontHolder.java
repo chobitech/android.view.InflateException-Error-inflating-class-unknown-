@@ -5,12 +5,17 @@ import android.graphics.Typeface;
 
 import java.util.HashMap;
 
+/*
+* a class is singleton and holds the instances of TypeFace
+*/
 final class TtfFontHolder {
 
+	// HashMap associates a font name(.ttf file) with a TypeFace instance
 	private final HashMap<String, Typeface> mFontMap = new HashMap<>();
 
 	private TtfFontHolder(){}
 
+	// holder class
 	private static class TtfFontHolderHolder {
 		public static final TtfFontHolder INSTANCE = new TtfFontHolder();
 	}
