@@ -1,12 +1,8 @@
-package com.chobitech.android.lib.components;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.TextView;
-
-import com.chobitech.android.lib.R;
 
 public class TtfTextView extends TextView {
 
