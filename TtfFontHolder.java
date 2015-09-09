@@ -1,5 +1,3 @@
-package com.chobitech.android.lib.components;
-
 import android.content.Context;
 import android.graphics.Typeface;
 
